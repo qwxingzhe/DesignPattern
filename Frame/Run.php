@@ -13,7 +13,6 @@ $default_controller = 'Index';
 $action_name = 'a';
 $default_action = 'index';
 
-var_dump($_GET);
 
 define('MODULE', (isset($_GET[$module_name]))?$_GET[$module_name]:$default_module);
 define('CONTROLLER', (isset($_GET[$controller_name]))?$_GET[$controller_name]:$default_controller);

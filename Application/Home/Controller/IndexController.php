@@ -9,4 +9,14 @@ class IndexController{
         echo 'page';
     }
     
+    public function game(){
+        
+        require_once 'Application/Home/Design/Factory.php';
+        
+        $game = \Design\GameFactory::getGameObj('Xianjian');
+        $game->start();
+    }
+    
+    
+    
 }
