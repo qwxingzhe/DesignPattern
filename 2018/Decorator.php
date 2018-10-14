@@ -34,7 +34,6 @@ class ConcreteComponent extends Component
     {
         echo '具体操作：ConcreteComponent';
     }
-
 }
 
 abstract class Decorator extends Component
@@ -62,7 +61,6 @@ class ConcreteDecoratorB extends Decorator
         parent::operation();
         echo '-----》装饰操作：ConcreteDecoratorB end';
     }
-
 }
 
 
